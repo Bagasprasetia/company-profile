@@ -1,104 +1,108 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Company Profile - Aplikasi Manajemen Donasi</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Company Profile - Donasi Cat Lover</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Header -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Peduli Lindungi Kucing</h1>
+            <p class="lead">Membantu kucing yang terlantar di sekitar kita.</p>
+            <a href="#features" class="btn btn-light btn-lg">Learn More</a>
+            <a href="#contact" class="btn btn-outline-light btn-lg">Get Started</a>
+        </div>
+    </header>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Manajemen Donasi</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="#about">Tentang Kami</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#features">Fitur</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#contact">Kontak</a>
-            </li>
-        </ul>
-    </div>
-</nav>
+    <!-- About Us Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center">About Us</h2>
+            <p class="text-center">Kami adalah perusahaan teknologi yang berfokus pada menajemen donasi kepada kucing yang terlantar.</p>
+        </div>
+    </section>
 
-<!-- Header -->
-<header class="jumbotron text-center bg-primary text-white">
-    <h1 class="display-4">Aplikasi Manajemen Donasi Berbasis Web</h1>
-    <p class="lead">Mudah, cepat, dan transparan untuk pengelolaan donasi Anda</p>
-    <a href="#contact" class="btn btn-light btn-lg">Hubungi Kami</a>
-</header>
-
-<!-- Tentang Kami -->
-<section id="about" class="py-5">
-    <div class="container">
-        <h2 class="text-center">Tentang Kami</h2>
-        <p class="text-center">Aplikasi Manajemen Donasi adalah solusi modern untuk mengelola donasi secara efektif dan transparan. Kami hadir untuk memudahkan Anda dalam mengelola, menyalurkan, dan melaporkan donasi secara cepat dan mudah, sehingga setiap donatur dapat melihat dampak kontribusinya.</p>
-    </div>
-</section>
-
-<!-- Fitur -->
-<section id="features" class="bg-light py-5">
-    <div class="container">
-        <h2 class="text-center">Fitur Aplikasi</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <h4>Manajemen Donasi</h4>
-                <p>Mengatur alur donasi dari penerimaan hingga distribusi dengan transparansi penuh.</p>
-            </div>
-            <div class="col-md-4">
-                <h4>Laporan Donasi</h4>
-                <p>Memberikan laporan real-time dan terperinci kepada donatur terkait penggunaan donasi.</p>
-            </div>
-            <div class="col-md-4">
-                <h4>Notifikasi Real-Time</h4>
-                <p>Donatur akan menerima notifikasi setiap kali donasi mereka digunakan.</p>
+    <!-- Features Section -->
+    <section id="features" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Features</h2>
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <h4>Manajemen Donasi</h4>
+                    <p>Mengelola donasi dari berbagai sumber dalam satu tempat.</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>Pelaporan Transparan</h4>
+                    <p>Memberikan laporan lengkap dan detail kepada donatur.</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>Pembaruan Otomatis</h4>
+                    <p>Update otomatis kepada donatur mengenai perkembangan donasi.</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>Integrasi Payment Gateway</h4>
+                    <p>Terintegrasi dengan berbagai metode pembayaran online.</p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Contact Us -->
-<section id="contact" class="py-5">
-    <div class="container">
-        <h2 class="text-center">Kontak Kami</h2>
-        <div class="row justify-content-center">
-            <div class="col-md-6">
-                <form>
-                    <div class="form-group">
-                        <label for="name">Nama</label>
-                        <input type="text" class="form-control" id="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" class="form-control" id="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Pesan</label>
-                        <textarea class="form-control" id="message" rows="4" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-block">Kirim</button>
-                </form>
+    <!-- Clients Section -->
+   <section id="clients" class="py-5">
+       <div class="container">
+            <h2 class="text-center">Our Clients</h2>
+            <div class="d-flex justify-content-center align-items-center text-center">
+                <div class="col-md-4">
+                    <img src="ketloper.jpg" alt="Client 1" class="img-fluid mb-2">
+                <p>Cat Lover UBP</p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Footer -->
-<footer class="text-center text-white bg-dark py-4">
-    <p>&copy; 2024 Manajemen Donasi. Bagaskara Dwi Prasetia.</p>
-</footer>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Case Study Section -->
+    <section id="case-study" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Case Study</h2>
+            <p class="text-center">Yayasan Cat Lover UBP berhasil meningkatkan donasi hingga 50% setelah menggunakan aplikasi ini, dengan transparansi laporan yang meningkatkan kepercayaan donatur.</p>
+        </div>
+    </section>
 
+    <!-- Contact Us Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Contact Us</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Your message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Aplikasi Manajemen Donasi Berbasis Web.Kelompok 44 (IF23A).</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

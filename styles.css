@@ -1,0 +1,28 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#features h4 {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#clients img {
+    max-width: 80px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
